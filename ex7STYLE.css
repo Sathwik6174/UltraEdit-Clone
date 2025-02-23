@@ -14,7 +14,6 @@
   list-style: none;
   display: flex;
   align-items: center;
-  /* gap: 5px; */
 }
 
 .right ul li span {
@@ -22,18 +21,10 @@
   cursor: pointer;
 }
 
-/* background deke manually check kr skteho kya chiz kaha tak h boundaries ke respect me...or else #CHROME DEV TOOLS...INSPECT JINDABAD */
-
 nav {
   display: flex;
   justify-content: space-around;
   font-family: "Segoe UI";
-
-  /* chahe yaha pe seouge ui in double quotes or single quotes it is working as expected */
-
-  /* align-items: center;
-  yaha pe toh sirf el hi row h..so we used align-items and agar multiple rows honge toh hamko align-content use krna padega */
-
 }
 
 .end {
@@ -42,15 +33,13 @@ nav {
 
 .ultraedit1 {
   font-family: sans-serif;
-  /* font-weight: bold; */
-  display: flex;
+    display: flex;
   gap: 40px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 85px;
-  /* background-color: aquamarine; */
-}
+  }
 
 .ultraedit1 span {
   font-size: 40px;
@@ -63,10 +52,8 @@ section span img {
 .ultraedit1 p {
   font-size: 23px;
   width: 60vw;
-  /* font-weight: 200; */
   text-align: center;
-  /* text-overflow: ellipsis; */
-}
+  }
 
 .btn {
   background-color: #00b6d1;
@@ -91,21 +78,12 @@ section span img {
 
 .flex {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
-}
+ }
 
 .small {
   font-size: 12px;
   margin: 0;
 }
-
-/* .big {
-  font-size: 24px;
-  
-} */
-
-/* upar wale .big ko access krne ka ek aur stykish tareeka h nth-child wala concept */
 
 .download :nth-child(2) {
   font-size: 24px;
@@ -115,22 +93,14 @@ section span img {
 
 .download {
   display: flex;
-  /* justify-content: center;   */
-  align-items: center;
+   align-items: center;
   gap: 13px;
   font-family: sans-serif;
 
 }
 
 .second {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-  /* background-color: aqua; */
-
-  /* bina flexbox ke bhi kr skteh.. */
-
-  max-width: 63vw;
+    max-width: 63vw;
   margin: auto;
 }
 
